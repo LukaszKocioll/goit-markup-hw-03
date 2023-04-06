@@ -88,7 +88,7 @@
 }
 
 .name-project {
-  margin: 0 auto;
+  margin: 0 auto 4px auto;
   line-height: 2;
   font-size: 18px;
   color: var(--title-color);
@@ -260,7 +260,7 @@ body {
 .title-description-flex {
   column-gap: 30px;
   padding: 0 0;
-  margin: 0px auto 94px auto;
+  margin: 0px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -306,8 +306,8 @@ li {
   padding: 0 0;
 }
 .projects {
-  margin: 34px auto 0 auto;
   padding: 0 0;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -335,4 +335,15 @@ header {
   padding: 94px 0;
   margin: 0 auto;
   background-color: #f5f4fa;
+}
+.title-description-margin {
+  column-gap: 30px;
+  padding: 0 0;
+  margin: 0px auto 94px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.projects-flex {
+  margin: 0 auto;
+  padding: 34px 0 0 0;
 }
