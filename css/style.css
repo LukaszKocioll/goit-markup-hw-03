@@ -344,8 +344,7 @@ header {
   justify-content: space-between;
 }
 .projects-flex {
-  margin: 0 auto;
-  padding: 34px 0 0 0;
+  margin: 50px auto 0 auto;
 }
 .our-job-flex {
   max-width: 1200px;
